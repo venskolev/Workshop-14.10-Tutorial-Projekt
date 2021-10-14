@@ -61,17 +61,64 @@ font-style: normal;
     flex-direction: column;
 }
 .polaroid {
-    overflow: visible;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    width: 80%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    position: sticky;
+   overflow: visible;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 10px;
+   margin-top: 10px;
+   width: 80%;
+   background-color: white;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   position: sticky;
 }
+
+
+
+  
 #box-aisha {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image:url(green.bläter.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+textarea{
+      width: 500px;
+      background-color: #eee;
+      border: 1px solid #999;
+      display: block;
+      padding: 20px;
+      font-family: source-code-pro,
+      monospace;
+      font-weight: 500;
+      font-style: normal;
+        } 
+h1{
+       margin: 20px;
+       padding-top: 20px;
+       padding-left: 9rem;
+        }
+h2{
+      margin-top: 20px;
+      padding-left: 1.5rem;
+        }
+   
+#aisha{
+    width:30vw;
+    height: 400px;
+    padding-left: 20px;
+   
+}
+#aisha-box{
+    display: flex;
+    justify-content: space-around;
+}
+#description{
+    font-size: 2rem;
+}
+p{
+    padding: 30px;
 }
