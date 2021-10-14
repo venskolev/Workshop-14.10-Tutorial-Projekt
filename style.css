@@ -75,3 +75,23 @@ font-style: normal;
 #box-aisha {
     display: flex;
 }
+
+#bild{
+    width: 62vw;
+}
+
+#box-serdar div{
+    background-color: lightgray;
+}
+
+textarea{
+    width: 500px;
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+    font-family: source-code-pro,
+    monospace;
+    font-weight: 500;
+    font-style: normal;
+    } 
