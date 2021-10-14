@@ -1,0 +1,77 @@
+*{
+    box-sizing: content-box;
+    font-family: fira-sans,
+    sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.678);
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 26px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: rgba(17, 17, 17, 0.589);
+}
+.nav-menu {
+    background-color: lightcyan;
+    background: transparent;
+    position: fixed;
+    width: 93.7%;
+    text-rendering: auto;
+    overflow: visible;
+    top: 0;
+    border-radius: 4px;
+    margin: 0 auto;
+    position: fixed;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 999;
+}
+.nav-menu ul li>a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 5px 24px;
+    text-decoration: none;
+}
+.sourcecode {
+font-family: source-code-pro,
+monospace;
+font-weight: 700;
+font-style: normal;
+}
+.web-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.polaroid {
+    overflow: visible;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: sticky;
+}
+#box-aisha {
+    display: flex;
+}
