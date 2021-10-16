@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/266eebd455.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.typekit.net/osk2pgo.css">
     <link rel="stylesheet" href="style.css">
     <title>Tutorial-Projekt</title>
 </head>
 <body>
-    <header>
+    <header class="site-header">
         <nav class="nav-menu">
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -17,13 +18,43 @@
                 <li><a href="#box-vens">Example-Portfolio</a></li>
                 <li><a href="#box-serdar">Example-Beruflische erfarung</a></li>
             </ul>
+            <div class="site-search">
+                <form action="#" id="cse-search-box" class="site-search">
+                    <div>
+                        <input type="text" name="q" size="30" class="site-search-input" placeholder="Search">
+                        <button type="submit" name="sa" class="site-search-button"><i class="fa fa-search"></i></button>
+                    </div>
+                </form>
+            </div>
         </nav>
     </header>
     <main class="web-container">
+        <aside class="menu">
+            <ul>
+                <h3>Tutorials</h3>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+                <li><a href="#">SQL</a></li>
+                <li><a href="#">PHP</a></li>
+                <li><a href="#">Node.js</a></li>
+                <li><a href="#">AJAX</a></li>
+                <li><a href="#">jQuery</a></li>
+                <h3>Programming</h3>
+                <li><a href="#">JAVA</a></li>
+                <li><a href="#">Python</a></li>
+                <li><a href="#">C++</a></li>
+                <li><a href="#">Kotlin</a></li>
+                <li><a href="#">Go</a></li>
+            </ul>
+        </aside>
+    <section class="tutorial-box">
         <div class="polaroid">
         <h1 id="home">Workshop - Tutorial Portfolio</h1>
         <p>Projekt:</p><p><strong>Tutorial Portfolio:</strong></p>
         </div>
+<!-- Aisha Section-->
         <section id="box-aisha" class="polaroid">
                       <h2>Wie kann mam <strong>über mich</strong>, mit HTMLund CSS erstellen!</h2>
                       <div id="aisha-box">
@@ -137,7 +168,7 @@ padding: 10px;
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est quia ab blanditiis, aliquid minus reprehenderit et ut ea incidunt minima illo eveniet id istevoluptatum, doloremque tenetur, a rerum deleniti ullam ipsam asperiores aliquam. Ea qui expedita nam quas mollitia facere laborum saepe nobis. Culpa, illo? Cumque sit consequuntur, repellendus quos magnam eius sed similique corporis, provident inventore est, error beatae debitis amet dolores. Animi voluptates dolore dolor nam excepturiratione odit perferendis nihil laborum nobis culpa sapiente temporibus eaque officiis non dignissimos aspernatur consequatur corporis, nulla repellendus. Rem velit liberonon expedita sapiente sunt reiciendis vitae, neque natus nisi amet, tenetur quas ducimus sequi illo error. Adipisci ducimus aspernatur quo. Alias eveniet ipsum animi, veromodi facere recusandae magnam itaque aliquam esse quia nesciunt perferendis reprehenderit iusto fugiat nisi deleniti ratione temporibus autem, pariatur, est totam.Voluptatum excepturi soluta cumque alias odit magni in obcaecati harum molestias rem!</p>
 </div>
             </section>
-
+<!-- Vens Section -->
         <section id="box-vens" class="polaroid">
             <h2>Portfolio Section erstehlen</h2>
             <div class="box-vens">
@@ -346,7 +377,7 @@ footer {
             </div>
             </div>   
         </section>
-        
+<!-- Serdar Section -->        
         <section id="box-serdar" class="polaroid">
             <div>
                  <h2>Portfolio CV</h2>  
@@ -532,7 +563,7 @@ a:hover{
     </div>
         </div>
     </section>
-
+    </section>
     </main>
     <footer class="polaroid">
         <ul>
