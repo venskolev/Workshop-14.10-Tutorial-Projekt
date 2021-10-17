@@ -50,10 +50,10 @@ li a:hover {
     text-decoration: none;
 }
 .sourcecode {
-font-family: source-code-pro,
-monospace;
-font-weight: 700;
-font-style: normal;
+    font-family: source-code-pro,
+    monospace;
+    font-weight: 700;
+    font-style: normal;
 }
 .web-container {
     display: flex;
@@ -80,10 +80,9 @@ font-style: normal;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    background-image:url(green.bläter.jpg) ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-color: #eaeded;
+    gap: 2rem;
+ 
 }
 textarea{
       width: 500px;
@@ -95,6 +94,8 @@ textarea{
       monospace;
       font-weight: 500;
       font-style: normal;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     
         } 
 h1{
        margin: 20px;
@@ -107,14 +108,17 @@ h2{
         }
    
 #aisha{
-    width:30vw;
-    height: 400px;
-    padding-left: 20px;
-   
+    width:28vw;
+    height: 370px;
+    border: 1px solid black;
+    order: 2;
+    margin-top: 6rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
 }
 #aisha-box{
     display: flex;
-    justify-content: space-around;
+  
 }
 #description{
     font-size: 2rem;
