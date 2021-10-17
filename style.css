@@ -55,8 +55,9 @@ img {
     padding-left: 0;
     border-radius: .3rem;
 }
-figcaption {
-    width: 50vw;
+
+figure, figcaption {
+    width: 30vw;
 }
 .site-header {
     display: flex;
@@ -167,11 +168,12 @@ textarea{
     font-style: normal;
     border-radius: .3rem;
 }
-.source-box {
+ .source-box {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     flex-wrap: wrap;
-}
+    gap: 5rem;
+} 
 .box-vens {
     display: flex;
     flex-wrap: wrap;
@@ -194,31 +196,35 @@ strong {
 #box-aisha {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    background-image: url(./image/green.bläter.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* flex-direction: column; */
+    background-color: #eaeded;
+    gap: 2rem;
     border-radius: .3rem;
     width: 80vw;
 }
+#cv-foto {
+    margin-left: 6rem;
+}
 #aisha {
-    width: 50vw;
-    height: auto;
-    justify-content: center;
+    width:28vw;
+    height: 370px;
+    border: 1px solid black;
+    margin-left: 6rem; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #aisha-box {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
+    flex-direction: row;
+} 
 
 
 #box-serdar {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    background-color: lightgray;
+    background-color: #eaeded;
     margin-top: 10px;
     border-radius: .3rem;
     width: 80vw;
